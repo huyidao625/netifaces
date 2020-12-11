@@ -573,15 +573,15 @@ readme_path = os.path.join(os.path.abspath(os.path.dirname(__file__)),
 with open(readme_path, 'r') as fp:
     long_desc = fp.read()
 
-setup (name='netifaces',
+setup (name='netifaces-w38',
        version=__version__,
        zip_safe=True,
        description="Portable network interface information.",
        license="MIT License",
        long_description=long_desc,
-       author='Alastair Houghton',
-       author_email='alastair@alastairs-place.net',
-       url='https://github.com/al45tair/netifaces',
+       author='hufei',
+       author_email='hufei625@qq.com',
+       url='https://github.com/huyidao625/netifaces',
        classifiers=[
     'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',

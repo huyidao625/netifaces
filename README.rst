@@ -1,5 +1,13 @@
-netifaces 0.10.8
+netifaces-w38 0.10.8
 ================
+
+原地址：https://pypi.org/project/netifaces/
+
+GITHUB: https://github.com/al45tair/netifaces
+
+由于目前netifaces不支持Python3.8，所以我就编译了支持Python3.8的wheel包。
+
+注意：我没有对python3.8的完整支持做覆盖测试，仅仅是对我自己使用到的接口做了测试，请慎重使用。
 
 +-------------+------------------+
 | Linux/macOS | |BuildStatus|    |
