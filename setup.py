@@ -1,6 +1,7 @@
 import setuptools
 import os
 import sys
+import codecs
 import distutils.spawn
 from setuptools import setup, Extension
 from setuptools.command.build_ext import build_ext
@@ -570,7 +571,7 @@ if not getattr(sys, 'getwindowsversion', None):
 
 readme_path = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                            'README.rst')
-with open(readme_path, 'r') as fp:
+with codecs.open(readme_path, 'r','utf-8') as fp:
     long_desc = fp.read()
 
 setup (name='netifaces-w38',
